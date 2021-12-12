@@ -16,12 +16,24 @@
     "webRTC",
     "multi connection"
   ],
-  "author": "",
+  "author": {
+    "name": "SungBin Im",
+    "email": "dlatqdlatq@mju.ac.kr",
+    "url": "https://github.com/nem-ne"
+  },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NEM-NE/react-multiRTC-hook/issues"
+    "url": "https://github.com/NEM-NE/react-multiRTC-hook/issues",
+    "email": "dlatqdlatq@mju.ac.kr"
   },
   "homepage": "https://github.com/NEM-NE/react-multiRTC-hook#readme",
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=0.10.3 <0.12",
+    "npm" : "~1.0.20"
+  },
   "dependencies": {
     "react": "^17.0.2",
     "socket.io-client": "^4.4.0"
