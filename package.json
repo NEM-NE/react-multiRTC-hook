@@ -1,0 +1,29 @@
+{
+  "name": "react-multirtc-hook",
+  "version": "1.0.0",
+  "description": "1:N 연결이 가능한 WebRTC 서비스를 react hook 방식으로 제공하는모듈 패키지.",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NEM-NE/react-multiRTC-hook.git"
+  },
+  "keywords": [
+    "react",
+    "webRTC",
+    "multi connection"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NEM-NE/react-multiRTC-hook/issues"
+  },
+  "homepage": "https://github.com/NEM-NE/react-multiRTC-hook#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "socket.io-client": "^4.4.0"
+  }
+}
