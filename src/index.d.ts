@@ -2,7 +2,7 @@ declare module 'react-multiRTC-hook' {
     const ReactMultiRTC: ReactMultiRTC
 
     interface ReactMultiRTC {
-        (config: ReactMultiRTCProps): VoidFunction
+        (payload: ReactMultiRTCProps, namespace?: string): VoidFunction
     }
 
     interface ReactMultiRTCProps {
